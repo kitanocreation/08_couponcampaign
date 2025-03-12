@@ -1,0 +1,250 @@
+/* --- reset --- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+p, div {
+  word-break: break-all;
+}
+
+a {
+  text-decoration: none;
+}
+
+input[type=text], select {
+  border-radius: 3px;
+  border: none;
+  padding: 6px;
+  font-size: inheirt;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  color: #B5B5B5;
+  font-size: 12px;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+.clearfix {
+  display: block;
+}
+
+.clearfix::before {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.bx-wrapper {
+  box-shadow: none !important;
+}
+
+.bx-controls-direction a {
+  z-index: 0 !important;
+}
+
+* {
+  font-family: "Noto Sans JP", serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #414143;
+  letter-spacing: 0.04em;
+  line-height: 150%;
+}
+
+html, body {
+  width: 100vw;
+}
+
+.coupon-fv, main, section {
+  width: 100%;
+}
+
+a {
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  * {
+    font-size: 16px;
+  }
+}
+.coupon-pc {
+  display: none;
+}
+
+html body .coupon-fv {
+  height: 100vw;
+}
+html body .coupon_main {
+  padding-bottom: 80px;
+  margin-top: 40px;
+}
+html body .coupon_main section:nth-of-type(1) {
+  width: calc(100% - 32px);
+  background-color: #E5F2F6;
+  padding: 24px 0;
+  margin: 0 auto;
+}
+html body .coupon_main section:nth-of-type(1) p:nth-of-type(1) {
+  width: 155px;
+  height: 36px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  color: #FFFFFF;
+  position: relative;
+  z-index: 1;
+}
+html body .coupon_main section:nth-of-type(1) p:nth-of-type(1) img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+html body .coupon_main section:nth-of-type(1) h2 {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  text-align: center;
+}
+html body .coupon_main section:nth-of-type(1) p:nth-of-type(2), html body .coupon_main section:nth-of-type(1) p:nth-of-type(3) {
+  margin-top: 16px;
+  color: #000000;
+  text-align: center;
+}
+html body .coupon_main section:nth-of-type(2) {
+  width: calc(100% - 32px);
+  margin: 80px auto 0 auto;
+}
+html body .coupon_main section:nth-of-type(2) article {
+  margin-top: 24px;
+}
+html body .coupon_main section:nth-of-type(2) article h2 {
+  font-weight: 500;
+}
+html body .coupon_main section:nth-of-type(2) article p {
+  margin-top: 4px;
+}
+html body .coupon_main section:nth-of-type(2) article ul {
+  margin: 4px;
+}
+html body .coupon_main section:nth-of-type(2) article ul li {
+  margin-top: 4px;
+  display: flex;
+}
+html body .coupon_main section:nth-of-type(2) article ul li span {
+  width: 14px;
+  height: 100%;
+  padding: 10px 5px 0 0;
+  display: flex;
+  justify-content: center;
+}
+html body .coupon_main section:nth-of-type(2) article ul li span div {
+  width: 3.5px;
+  height: 3.5px;
+  border-radius: 50%;
+  background-color: #414143;
+}
+html body .coupon_main section:nth-of-type(2) article ul li:nth-of-type(1) {
+  margin-top: 0;
+}
+html body .coupon_main section:nth-of-type(2) article:nth-of-type(1) {
+  margin-top: 0;
+}
+html body .coupon_main section:nth-of-type(3) {
+  width: calc(100% - 32px);
+  height: 48px;
+  border-radius: 8px;
+  background-color: #B8193F;
+  margin: 80px auto 0 auto;
+}
+html body .coupon_main section:nth-of-type(3) a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .coupon-sp {
+    display: none;
+  }
+  .coupon-pc {
+    display: block;
+  }
+  html body .coupon-fv {
+    height: 39.1vw;
+  }
+  html body .coupon_main {
+    width: 50.4vw;
+    margin: 40px auto 0 auto;
+  }
+  html body .coupon_main section:nth-of-type(1) {
+    width: 100%;
+  }
+  html body .coupon_main section:nth-of-type(1) p:nth-of-type(1) {
+    width: 172px;
+    height: 40px;
+  }
+  html body .coupon_main section:nth-of-type(2) {
+    width: 100%;
+  }
+  html body .coupon_main section:nth-of-type(2) article ul li span {
+    padding: 11px 6px 0 0;
+  }
+  html body .coupon_main section:nth-of-type(2) article ul li span div {
+    width: 4px;
+    height: 4px;
+  }
+  html body .coupon_main section:nth-of-type(3) {
+    width: 100%;
+    height: 52px;
+  }
+}
